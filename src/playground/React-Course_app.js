@@ -57,25 +57,6 @@ class ReactCoures extends React.Component {
       <button onClick={this.handlePick3}>chapter 3</button>
       <button onClick={this.handlePick4}>chapter 4</button>
       <button onClick={this.handlePick5}>chapter 5</button>
-
-      <Accordion defaultActiveKey="0">
-      <Card>
-        <Card.Header>
-          <ContextAwareToggle eventKey="0">Chapter 1</ContextAwareToggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="0">
-          <Card.Body>Setting up Environment for React Project</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <ContextAwareToggle eventKey="1">Chapter 2</ContextAwareToggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="1">
-          <Card.Body>Hello React</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
       </div>
       <h2><p>Some Softwares are Required for React Course.</p><p>So please Click On Requirements.</p></h2>
       <button onClick={this.handleRequirements}>
