@@ -7,21 +7,31 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "live-server": "^1.2.1",
-    "react": "17",
-    "react-dom": "17",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "validator": "13.6.0",
     "yarn": "^1.22.15"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.15.6",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
-    "webpack": "^5.58.0",
-    "webpack-cli": "^4.9.0"
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
   }
 }
+
+
+
+
